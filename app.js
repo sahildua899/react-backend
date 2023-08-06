@@ -12,7 +12,7 @@ app.use(express.json())
 
 
 app.get('/*', (req,res)=>{
-    res.render('index')
+    res.send('running fine')
 })
 app.use('/api', api)
 
